@@ -7,6 +7,11 @@
   --color-green-teal: hsl(166 100% 37%);
   --color-cobalt-blue: hsl(234 85% 45%);
 
+  --color-light-red-bg: hsla(0, 100%, 67%, 0.1);
+  --color-orangey-yellow-bg: hsla(39, 100%, 56%, 0.1);
+  --color-green-teal-bg: hsla(166, 100%, 37%, 0.1);
+  --color-cobalt-blue-bg: hsla(234, 85%, 45%, 0.1);
+
   /* gradients */
   --color-light-slate-blue: hsl(252 100% 67%);
   --color-light-royal-blue: hsl(241 81% 54%);
@@ -34,6 +39,7 @@
   
 
   --border-radius: 32px;
+  --border-radius-sm: 12px;
 
   --font-family: 'Hanken Grotesk Variable', sans-serif;
   --font-size: 18px;
