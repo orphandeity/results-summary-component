@@ -15,4 +15,21 @@
     background: var(--color-white);
     height: 100vh;
   }
+
+  @media (min-width: 1440px) {
+    main {
+      display: grid;
+      place-content: center;
+      height: 100vh;
+    }
+
+    .card {
+      width: 768px;
+      height: 512px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      border-radius: var(--border-radius);
+      box-shadow: 0 30px 60px 0 var(--color-cobalt-blue-shadow);
+    }
+  }
 </style>

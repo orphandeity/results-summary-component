@@ -10,15 +10,20 @@
   h1 {
     color: var(--color-light-lavendar);
   }
+
   h2 {
+    font-size: 24px;
     font-weight: 700;
+    color: var(--color-white);
   }
+
   p {
     font-size: 16px;
     color: var(--color-light-lavendar);
-    max-width: 260px;
     text-align: center;
+    max-width: 260px;
   }
+
   .circle {
     border-radius: 9999px;
     display: flex;
@@ -27,7 +32,7 @@
     align-items: center;
     background: var(--gradient-2);
     width: 140px;
-    height: 140px;
+    aspect-ratio: 1/1;
   }
   .circle :first-child {
     font-size: 56px;
@@ -52,8 +57,38 @@
     padding-bottom: 40px;
     padding-top: 24px;
   }
-  .result h2 {
-    font-size: 24px;
-    color: var(--color-white);
+  @media (min-width: 1440px) {
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 32px;
+    }
+    p {
+      font-size: var(--font-size);
+    }
+    .result {
+      border-radius: var(--border-radius);
+      gap: 0;
+    }
+    .result > :nth-child(2) {
+      margin-top: 35px;
+    }
+    .result > :nth-child(3) {
+      margin-top: 27px;
+    }
+    .result > :last-child {
+      margin-top: 14px;
+    }
+    .circle {
+      width: 200px;
+      gap: 4px;
+    }
+    .circle :first-child {
+      font-size: 72px;
+    }
+    .circle :last-child {
+      font-size: var(--font-size);
+    }
   }
 </style>
