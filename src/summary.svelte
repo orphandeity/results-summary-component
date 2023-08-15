@@ -22,20 +22,10 @@
   .summary {
     padding: 0 30px 30px;
   }
-  @media (min-width: 1440px) {
-    .summary {
-      padding: 0 40px 46px;
-    }
-  }
   h2 {
     font-weight: 700;
     color: var(--color-dark-gray-blue);
     margin-block: 24px;
-  }
-  @media (min-width: 1440px) {
-    h2 {
-      margin: 38px 0 28px;
-    }
   }
   ul {
     display: flex;
@@ -92,7 +82,13 @@
     background: var(--color-cobalt-blue);
     cursor: pointer;
   }
-  @media (min-width: 1440px) {
+  @media (min-width: 1024px) {
+    .summary {
+      padding: 0 40px 46px;
+    }
+    h2 {
+      margin: 38px 0 28px;
+    }
     button {
       margin-top: 41px;
     }

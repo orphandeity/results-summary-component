@@ -57,7 +57,7 @@
     padding-bottom: 40px;
     padding-top: 24px;
   }
-  @media (min-width: 1440px) {
+  @media (min-width: 1024px) {
     h1 {
       font-size: 24px;
     }
