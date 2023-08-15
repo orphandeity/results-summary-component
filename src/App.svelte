@@ -13,7 +13,7 @@
 <style>
   .card {
     background: var(--color-white);
-    height: 100vh;
+    height: 100%;
   }
 
   @media (min-width: 1024px) {
